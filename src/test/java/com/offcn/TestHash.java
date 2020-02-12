@@ -65,5 +65,6 @@ public class TestHash {
     @Test
     public void deleteBykey(){
         redisTemplate.delete( "content" );
+        System.out.println("19192分支");
     }
 }
